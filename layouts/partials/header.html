@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{ .Title }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+
+    <meta name="keyword" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}All Entries &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags | {{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+
+   	<!-- selection of themed bootstrap css to load-->
+    {{ if isset .Site.Params "theme" }}
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme/{{ .Site.Params.theme.name }}.css">
+    {{ else}}
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme/default.css">
+    {{ end }}
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/font-awesome.min.css">
+
+   	<!-- include custom css -->
+   	<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
+
+
+    <!-- javascript -->
+    <script src="{{ .Site.BaseURL }}/js/jquery.min-2.1.4.js"></script>
+    <script src="{{ .Site.BaseURL }}/js/bootstrap.min-3.3.5.js"></script>
+
+    <!-- rss -->
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+</head>
+<body lang="en">
+    <!-- navbar -->
+    {{ partial "navbar" . }}
