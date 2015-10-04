@@ -7,6 +7,7 @@ It is a simple template containing a nice header menu bar and content area. Defa
 
 * pages (used for About/Resume pages)
 * posts (used for standard blogposts)
+
 ---
 * [Installation](#installation)
 * [Usage](#usage)
