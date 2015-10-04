@@ -111,7 +111,7 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 
 ## Questions, ideas, bugs, pull requests?
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/zyro/hyde-x/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/mpas/hugo-bootswatch/issues).
 
 ## License
 
