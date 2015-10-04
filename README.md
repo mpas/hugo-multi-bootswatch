@@ -9,13 +9,16 @@ It is a simple template containing a nice header menu bar and content area. Defa
 * posts (used for standard blogposts)
 
 ---
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [Configuration](#configuration)
 * [Built-in colour themes](#colour-themes)
 * [Questions, ideas, bugs, pull requests?](#questions-ideas-bugs-pull-requests)
 * [License](#license)
+
 ---
+
 ## Installation
 
 ```
