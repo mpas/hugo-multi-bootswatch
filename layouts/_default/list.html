@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+	<div class="row">
+		<div class="text-center">
+			<h3>Posts</h3>
+	    </div>
+    </div>
+	<div class="row">
+		<div class="col-md-offset-1 col-md-10">
+			<ul>
+				{{ range .Data.Pages }}
+		        	{{ .Render "post-title"}}
+			    {{ end }}
+		    </ul>
+		</div>
+    </div>
+	<div class="row">
+		<hr>
+	</div>
+
+{{ partial "footer.html" . }}

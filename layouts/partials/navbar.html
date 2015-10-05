@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="navbar navbar-default {{ if .Site.Params.theme.inverse }}navbar-inverse{{ end }}" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{{.Site.BaseURL}}">{{ .Site.Title }}</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/page/about/">About</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/page/resume/">Resume</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/post/">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
