@@ -99,42 +99,6 @@ paginate    = 10                    # the number of posts on a page
 All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use. 
 
 ## Screenshots
-
-### Cerulean
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
-
-### Cosmo
-
-### Cyborg
-
-### Default
-
-### Flatly
-
-### Journal
-
-### Lumen
-
-### Paper
-
-### Readable
-
-### Sandstone
-
-### Simplex
-
-### Slate
-
-### Spacelab
-
-### Superhero
-
-### United
-
-
-### Yeti
-
 ### Index Page
 ![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/index.png)
 
@@ -143,6 +107,73 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 
 ### List Page
 ![list](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/list.png)
+
+## Theme Screenshots
+### Cerulean
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Cosmo
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Cyborg
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Default
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Flatly
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Journal
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Lumen
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Paper
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Readable
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Sandstone
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Simplex
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Slate
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Spacelab
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Superhero
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### United
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Yeti
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+
 
 ## Questions, ideas, bugs, pull requests?
 
