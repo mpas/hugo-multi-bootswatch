@@ -229,4 +229,4 @@ All feedback is welcome! Head over to the [issue tracker](https://github.com/mpa
 
 ## License
 
-Open sourced under the [MIT license](https://github.com/marcopas/hugo-bootswatch/blob/master/LICENSE).
+Open sourced under the [MIT license](https://github.com/mpas/hugo-bootswatch/blob/master/LICENSE.md).
