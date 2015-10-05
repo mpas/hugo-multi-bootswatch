@@ -100,14 +100,49 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 
 ## Screenshots
 
+### Cerulean
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+
+### Cosmo
+
+### Cyborg
+
+### Default
+
+### Flatly
+
+### Journal
+
+### Lumen
+
+### Paper
+
+### Readable
+
+### Sandstone
+
+### Simplex
+
+### Slate
+
+### Spacelab
+
+### Superhero
+
+### United
+
+
+### Yeti
+
 ### Index Page
-![index](http://mpas.github.io/hosted/img/hugo-journal/index.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/index.png)
 
 ### Post Page
-![post](http://mpas.github.io/hosted/img/hugo-journal/post.png)
+![post](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/post.png)
 
 ### List Page
-![list](http://mpas.github.io/hosted/img/hugo-journal/list.png)
+![list](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/list.png)
 
 ## Questions, ideas, bugs, pull requests?
 
