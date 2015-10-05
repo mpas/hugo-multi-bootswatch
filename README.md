@@ -184,9 +184,9 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 
 ### Sandstone
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/sandbox.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/sandstone.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/sandbox.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/sandstone.png)
 
 ### Simplex
 *normal:*
