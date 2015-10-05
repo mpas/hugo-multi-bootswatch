@@ -114,65 +114,64 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 ![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
 
 ### Cosmo
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cosmo.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cosmo.png)
 
 ### Cyborg
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cyborg.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cyborg.png)
 
 ### Default
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/default.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/default.png)
 
 ### Flatly
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/flatly.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/flatly.png)
 
 ### Journal
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/journal.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/journal.png)
 
 ### Lumen
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/lumen.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/lumen.png)
 
 ### Paper
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/paper.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/paper.png)
 
 ### Readable
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/readable.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/readable.png)
 
 ### Sandstone
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/sandbox.png)
 ![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
 
 ### Simplex
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/simplex.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/simplex.png)
 
 ### Slate
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/slate.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/slate.png)
 
 ### Spacelab
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/spacelab.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/spacelab.png)
 
 ### Superhero
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/superhero.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/superhero.png)
 
 ### United
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/united.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/united.png)
 
 ### Yeti
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
-
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/yeti.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/yeti.png)
 
 
 ## Questions, ideas, bugs, pull requests?
