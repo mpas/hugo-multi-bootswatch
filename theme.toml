@@ -1,4 +1,4 @@
-name = "hugo-bootswatch"
+name = "hugo-multi-bootswatch"
 license = "MIT"
 licenselink = "http://sm.mit-license.org/"
 description = "Hugo BootSwatch Theme is a single column theme for [hugo](http://hugo.spf13.com/) based on [Twitter Bootstrap](http://getbootstrap.com/) and a css styling from [Bootswatch](http://bootswatch.com/)."
