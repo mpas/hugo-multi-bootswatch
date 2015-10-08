@@ -1,7 +1,7 @@
-Hugo Bootswatch Theme
+Hugo Multi Bootswatch Theme
 ==================
 
-Hugo BootSwatch Theme is a single column theme for [hugo](http://hugo.spf13.com/) based on [Twitter Bootstrap](http://getbootstrap.com/) and a css styling from [Bootswatch](http://bootswatch.com/).
+Hugo Multi BootSwatch Theme is a single column theme for [hugo](http://hugo.spf13.com/) based on [Twitter Bootstrap](http://getbootstrap.com/) and a css styling from [Bootswatch](http://bootswatch.com/).
 
 It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.
 
@@ -44,7 +44,7 @@ It is a simple template containing a nice header menu bar and content area. Defa
 $ cd your_site_repo/
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/mpas/hugo-bootswatch.git
+$ git clone https://github.com/mpas/hugo-multi-bootswatch.git
 ```
 
 See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
@@ -64,7 +64,7 @@ This theme expects a relatively standard Hugo blog/personal site layout:
         └── resume.md       // used in the header
 ```
 
-Just run `hugo --theme=hugo-bootswatch` to generate your site!
+Just run `hugo --theme=hugo-multi-bootswatch` to generate your site!
 
 ## Configuration
 
@@ -119,114 +119,114 @@ All the available color themes from [Bootswatch](http://bootswatch.com/) are ava
 
 ## Screenshots
 ### Index Page
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/index.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/index.png)
 
 ### Post Page
-![post](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/post.png)
+![post](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/post.png)
 
 ### List Page
-![list](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/list.png)
+![list](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/list.png)
 
 ## Themed Screenshots
 ### Cerulean
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cerulean.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cerulean.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cerulean.png)
 
 ### Cosmo
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cosmo.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cosmo.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cosmo.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cosmo.png)
 
 ### Cyborg
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/cyborg.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cyborg.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/cyborg.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cyborg.png)
 
 ### Default
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/default.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/default.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/default.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/default.png)
 
 ### Flatly
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/flatly.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/flatly.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/flatly.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/flatly.png)
 
 ### Journal
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/journal.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/journal.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/journal.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/journal.png)
 
 ### Lumen
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/lumen.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/lumen.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/lumen.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/lumen.png)
 
 ### Paper
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/paper.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/paper.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/paper.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/paper.png)
 
 ### Readable
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/readable.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/readable.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/readable.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/readable.png)
 
 ### Sandstone
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/sandstone.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/sandstone.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/sandstone.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/sandstone.png)
 
 ### Simplex
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/simplex.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/simplex.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/simplex.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/simplex.png)
 
 ### Slate
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/slate.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/slate.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/slate.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/slate.png)
 
 ### Spacelab
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/spacelab.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/spacelab.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/spacelab.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/spacelab.png)
 
 ### Superhero
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/superhero.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/superhero.png)
 *inversed:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/superhero.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/superhero.png)
 
 ### United
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/united.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/united.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/united.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/united.png)
 
 ### Yeti
 *normal:*
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_false/yeti.png)
-![index](https://raw.githubusercontent.com/mpas/hugo-bootswatch/master/images/inverse_true/yeti.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/yeti.png)
+![index](https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/yeti.png)
 
 
 ## Questions, ideas, bugs, pull requests?
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/mpas/hugo-bootswatch/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/mpas/hugo-multi-bootswatch/issues).
 
 ## License
 
-Open sourced under the [MIT license](https://github.com/mpas/hugo-bootswatch/blob/master/LICENSE.md).
+Open sourced under the [MIT license](https://github.com/mpas/hugo-multi-bootswatch/blob/master/LICENSE.md).
