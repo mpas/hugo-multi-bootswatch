@@ -84,11 +84,28 @@ paginate    = 10                    # the number of posts on a page
     # name of the site author; used in header meta information
     author = "<authorname>"
 
+    # language of the blog; used in header meta information
+    languageCode = "en-US"
+
+    # your copyright information. Don't forget to include years!
+    copyright = '2014-2015 Marco Pas'
+
     # social links, used in footer, these must be full URLs.
     twitter = "https://twitter.com/<username>"
     github = "https://github.com/<username>"
     facebook = "https://www.facebook.com/<username>"
     delicious = "https://delicious.com/<username>"
+
+    # UX settings, optional
+    use_summaries = false # indicating if the theme should use Summaries on front page instead of full posts' content.
+
+[params.strings]
+    # localization stuff. Optional. Default values are in English.
+    home_navbar_link = "Home" # text of Home link on navbar
+    blog_navbar_link = "Blog" # text of Blog link on navbar
+    read_more_link = "Read more" # text of 'Read more' link, used when Summaries enabled (see above)
+    posts_list_header = "Posts" # header of the '/post' list page.
+    date_format = "Mon, Jan 2, 2006" # site's date format.
 
 [params.theme]
     inverse = false     # indicating if the theme should use inversed colors
@@ -114,8 +131,14 @@ paginate    = 10                    # the number of posts on a page
 
 ```
 
+### Per-post configuration
+
+Sometimes you want some short posts be displayed on front page without cut, and you can do that for single post by adding `no_cut = true` in it's front matter.
+
+For populating navbar links standard Hugo's `menu = "main"` can be used in front matter.
+
 ## Colour themes
-All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use. 
+All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use.
 
 ## Screenshots
 ### Index Page
