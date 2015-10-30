@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html class="no-js" lang="{{ if .Site.Params.languageCode }}{{ .Site.Params.languageCode }}{{ else }}en-us{{end}}" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,9 @@
     <meta name="author" content="{{ .Site.Params.author }}">
 
     <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-    <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}All Entries &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags | {{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+    <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}All Entries &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
    	<!-- selection of themed bootstrap css to load-->
     {{ if isset .Site.Params "theme" }}
@@ -32,6 +32,6 @@
     <!-- rss -->
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 </head>
-<body lang="en">
+<body lang="{{ if .Site.Params.languageCode }}{{ .Site.Params.languageCode }}{{ else }}en{{ end }}">
     <!-- navbar -->
     {{ partial "navbar" . }}

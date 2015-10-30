@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 	<div class="row">
 		<div class="text-center">
-			<h3>Posts</h3>
+			<h3>{{ if .Site.Params.strings.posts_list_header }}{{ .Site.Params.strings.posts_list_header }}{{ else }}Posts{{ end }}</h3>
 	    </div>
     </div>
 	<div class="row">
