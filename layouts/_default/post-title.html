@@ -3,6 +3,6 @@
 		<h4><a href="{{.Permalink}}">{{ .Title }}</a></h4>
 	</div>
 	<div class="col-md-4 col-md-4">
-		<h4>{{ .Date.Format "Mon Jan 2, 2006" }}</h4>
+		<h4>{{ if .Site.Params.strings.date_format }}{{ .Date.Format .Site.Params.strings.date_format }}{{ else }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}</h4>
 	</div>
 </div>

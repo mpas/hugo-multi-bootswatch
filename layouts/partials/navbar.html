@@ -6,10 +6,11 @@
             </div>
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-                    <li><a href="{{ .Site.BaseURL }}/page/about/">About</a></li>
-                    <li><a href="{{ .Site.BaseURL }}/page/resume/">Resume</a></li>
-                    <li><a href="{{ .Site.BaseURL }}/post/">Blog</a></li>
+                    <li><a href="{{ .Site.BaseURL }}">{{ if .Site.Params.strings.home_navbar_link }}{{ .Site.Params.strings.home_navbar_link }}{{ else }}Home{{ end }}</a></li>
+                    <li><a href="{{ .Site.BaseURL }}/post/">{{ if .Site.Params.strings.blog_navbar_link }}{{ .Site.Params.strings.blog_navbar_link }}{{ else }}Blog{{ end }}</a></li>
+                    {{ range .Site.Menus.main }}
+                      <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+                    {{end}}
                 </ul>
             </div>
         </div>
