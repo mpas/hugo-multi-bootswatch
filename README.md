@@ -8,6 +8,7 @@ It is a simple template containing a nice header menu bar and content area. Defa
 * posts (used for standard blogposts and optional be placed in the menu!)
 
 You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu)
+
 ---
 
 * [Contributors](#contributors)
