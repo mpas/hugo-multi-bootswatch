@@ -10,7 +10,7 @@
     <meta name="keyword" content="">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}All Entries &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else if eq .URL "/post/" }}{{ if .Site.Params.strings.posts_list_header }}{{ .Site.Params.strings.posts_list_header }}{{ else }}All Entries{{ end }} &middot; {{ .Site.Title }}{{ else if in .URL "/tags/" }}Tags &middot; {{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
    	<!-- selection of themed bootstrap css to load-->
     {{ if isset .Site.Params "theme" }}

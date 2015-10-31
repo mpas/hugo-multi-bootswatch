@@ -18,12 +18,16 @@
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<br>
-				{{ if .Params.nocut }}
-					{{ .Content }}
+				{{ if .Site.Params.use_summaries }}
+  				{{ if .Params.nocut }}
+	  				{{ .Content }}
+		  		{{ else }}
+  		  		{{ .Summary }}
+				  	<br>
+					  <a href="{{ .Permalink }}">{{ if .Site.Params.strings.read_more_link }}{{ .Site.Params.strings.read_more_link }}{{ else }}Read more{{ end }}</a>
+				  {{ end }}
 				{{ else }}
-  				{{ .Summary }}
-					<br>
-					<a href="{{ .Permalink }}">{{ if .Site.Params.strings.read_more_link }}{{ .Site.Params.strings.read_more_link }}{{ else }}Read more{{ end }}</a>
+				  {{ .Content }}
 				{{ end }}
 			</div>
 		</div>
