@@ -3,9 +3,9 @@ Hugo Multi Bootswatch Theme
 
 Hugo Multi BootSwatch Theme is a single column theme for [hugo](http://hugo.spf13.com/) based on [Twitter Bootstrap](http://getbootstrap.com/) and a css styling from [Bootswatch](http://bootswatch.com/).
 
-It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.
+It is a simple template containing a nice header menu bar and content area. Default the theme support 1 type of content.
 
-* posts (used for standard blogposts)
+* posts (used for standard blogposts and optional be placed in the menu!)
 
 You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu)
 ---
