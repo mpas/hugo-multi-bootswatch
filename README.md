@@ -98,12 +98,12 @@ paginate    = 10                    # the number of posts on a page
     copyright = "2015 ~ <authorname>"
 
     # social links, used in footer, these must be full URLs.
-    twitter = "https://twitter.com/<username>"
-    github = "https://github.com/<username>"
-    facebook = "https://www.facebook.com/<username>"
-    delicious = "https://delicious.com/<username>"
-    linkedin = "https://www.linkedin.com/in/<username>"
-    flickr =  "https://www.flickr.com/photos/<username>"
+    twitter     = "https://twitter.com/<username>"
+    github      = "https://github.com/<username>"
+    facebook    = "https://www.facebook.com/<username>"
+    delicious   = "https://delicious.com/<username>"
+    linkedin    = "https://www.linkedin.com/in/<username>"
+    flickr      =  "https://www.flickr.com/photos/<username>"
 
     # show default summaries on the frontpage or not
     use_summaries = false
