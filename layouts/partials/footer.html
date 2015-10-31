@@ -3,12 +3,16 @@
             <footer>
                 <div class="pull-left">
                     <p>
-                        &copy; {{ .Site.Params.copyright }} ~ Powered By <a href="http://hugo.spf13.com">Hugo</a> - version: {{ .Hugo.Version }} ~
+                        &copy; {{ .Site.Params.copyright }} ~ Powered By <a href="http://hugo.spf13.com">Hugo</a> - version: {{ .Hugo.Version }} ~ <a href="{{ .Site.BaseURL }}/license">License</a>
                     </p>
                 </div>
 
                 <!-- social icons -->
                 <div class="pull-right">
+                    {{ if isset .Site.Params "linkedin" }}
+                        <a href="{{ .Site.Params.linked }}" target="_blank">
+                        <i class="fa fa-linkedin fa-2x"></i></a>
+                    {{ end }}
                     {{ if isset .Site.Params "facebook" }}
                         <a href="{{ .Site.Params.facebook }}" target="_blank">
                         <i class="fa fa-facebook-square fa-2x"></i></a>
@@ -24,6 +28,10 @@
                     {{ if isset .Site.Params "delicious" }}
                         <a href="{{ .Site.Params.delicious }}" target="_blank">
                         <i class="fa fa-delicious fa-2x"></i></a>
+                    {{ end }}
+                    {{ if isset .Site.Params "flickr" }}
+                        <a href="{{ .Site.Params.flickr }}" target="_blank">
+                        <i class="fa fa-flickr fa-2x"></i></a>
                     {{ end }}
                         <a href="{{ .RSSlink }}" target="_blank">
                         <i class="fa fa-rss-square fa-2x"></i></a>

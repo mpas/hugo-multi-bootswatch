@@ -1,39 +1,46 @@
 	{{ if eq .Type "post" }}
-		<div class="row">
-			<!-- <div class="col-md-offset-1 col-md-10"> -->
-			<div class="col-md-offset-1 col-md-10">
-				<h3><a href="{{.Permalink}}">{{ .Title }}</a></h3>
-					<span class="label label-primary">{{ if .Site.Params.strings.date_format }}{{ .Date.Format .Site.Params.strings.date_format }}{{ else }}{{ .Date.Format "Mon, Jan 2, 2006" }}{{ end }}</span> in
-					{{ range $i, $e :=.Params.categories }}
-						{{if $i}} , {{end}}
-						<a href="/categories/{{ . | urlize }}">{{ . }}</a>
-					{{ end }} using tags
-					{{ range $i, $e :=.Params.tags }}
-						{{if $i}} , {{end}}
-						<a href="/tags/{{ . | urlize }}">{{ . }}</a>
+		{{ if ne .Params.menu "main" }}
+			<div class="row">
+				<!-- <div class="col-md-offset-1 col-md-10"> -->
+				<div class="col-md-offset-1 col-md-10">
+					<h3><a href="{{.Permalink}}">{{ .Title }}</a></h3>
+						<span class="label label-primary">
+							{{ if .Site.Params.strings.date_format }}
+								{{ .Date.Format .Site.Params.strings.date_format }}
+							{{ else }}
+								{{ .Date.Format "Mon, Jan 2, 2006" }}
+							{{ end }}</span>&nbsp;in 
+							{{ range $i, $e :=.Params.categories }}
+								{{if $i}} , {{end}}
+								<a href="/categories/{{ . | urlize }}">{{ . }}</a>
+							{{ end }} using tags
+							{{ range $i, $e :=.Params.tags }}
+								{{if $i}} , {{end}}
+							<a href="/tags/{{ . | urlize }}">{{ . }}</a>
+						{{ end }}
+					</small>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10">
+					<br>
+					{{ if .Site.Params.use_summaries }}
+	  				{{ if .Params.nocut }}
+		  				{{ .Content }}
+			  		{{ else }}
+	  		  		{{ .Summary }}
+					  	<br>
+						  <a href="{{ .Permalink }}">{{ if .Site.Params.strings.read_more_link }}{{ .Site.Params.strings.read_more_link }}{{ else }}Read more{{ end }}</a>
+					  {{ end }}
+					{{ else }}
+					  {{ .Content }}
 					{{ end }}
-				</small>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				<br>
-				{{ if .Site.Params.use_summaries }}
-  				{{ if .Params.nocut }}
-	  				{{ .Content }}
-		  		{{ else }}
-  		  		{{ .Summary }}
-				  	<br>
-					  <a href="{{ .Permalink }}">{{ if .Site.Params.strings.read_more_link }}{{ .Site.Params.strings.read_more_link }}{{ else }}Read more{{ end }}</a>
-				  {{ end }}
-				{{ else }}
-				  {{ .Content }}
-				{{ end }}
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<hr>
-			</div>
-		</div>
+		{{ end }}
 	{{ end }}

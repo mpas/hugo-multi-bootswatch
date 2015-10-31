@@ -5,13 +5,15 @@ Hugo Multi BootSwatch Theme is a single column theme for [hugo](http://hugo.spf1
 
 It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.
 
-* pages (used for About/Resume pages)
 * posts (used for standard blogposts)
 
+You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu)
 ---
 
+* [Contributors](#contributors)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Adding posts to main menu](#adding-post-to-main-menu)
 * [Configuration](#configuration)
 * [Built-in colour themes](#colour-themes)
 * [Screenshots](#screenshots)
@@ -38,6 +40,12 @@ It is a simple template containing a nice header menu bar and content area. Defa
 
 ---
 
+## Contributors
+* [Valdos Sine](http://brainstorage.me/fat0troll)
+* [Marco Pas](http://mpas.github.io)
+
+---
+
 ## Installation
 
 ```
@@ -60,8 +68,6 @@ This theme expects a relatively standard Hugo blog/personal site layout:
     |   └── post2.md
     └── page
         ├── license.md      // this is used in the footer link
-        ├── about.md        // used in the header
-        └── resume.md       // used in the header
 ```
 
 Just run `hugo --theme=hugo-multi-bootswatch` to generate your site!
@@ -81,31 +87,39 @@ paginate    = 10                    # the number of posts on a page
     post = "/blog/:year/:month/:day/:title/"
 
 [params]
+    # language code for your website
+    languagecode = "en-US"
+
     # name of the site author; used in header meta information
     author = "<authorname>"
 
-    # language of the blog; used in header meta information
-    languageCode = "en-US"
-
-    # your copyright information. Don't forget to include years!
-    copyright = '2014-2015 Marco Pas'
+    # copyright text; used in footer
+    copyright = "2015 ~ <authorname>"
 
     # social links, used in footer, these must be full URLs.
     twitter = "https://twitter.com/<username>"
     github = "https://github.com/<username>"
     facebook = "https://www.facebook.com/<username>"
     delicious = "https://delicious.com/<username>"
+    linkedin = "https://www.linkedin.com/in/<username>"
+    flickr =  "https://www.flickr.com/photos/<username>"
 
-    # UX settings, optional
-    use_summaries = false # indicating if the theme should use Summaries on front page instead of full posts' content.
+    # show default summaries on the frontpage or not
+    use_summaries = false
 
+# naming of the elements in your blog/site
 [params.strings]
-    # localization stuff. Optional. Default values are in English.
-    home_navbar_link = "Home" # text of Home link on navbar
-    blog_navbar_link = "Blog" # text of Blog link on navbar
-    read_more_link = "Read more" # text of 'Read more' link, used when Summaries enabled (see above)
-    posts_list_header = "Posts" # header of the '/post' list page.
-    date_format = "Mon, Jan 2, 2006" # site's date format.
+    # name of the link to the homepage
+    home_navbar_link = "Home"
+
+    # name of the link to the blog page
+    blog_navbar_link = "Blog"
+
+    # name of the header used in the post list page
+    posts_list_header = "Posts"
+    
+    # used date format
+    date_format = '02.01.2006'
 
 [params.theme]
     inverse = false     # indicating if the theme should use inversed colors
@@ -131,14 +145,18 @@ paginate    = 10                    # the number of posts on a page
 
 ```
 
-### Per-post configuration
-
-Sometimes you want some short posts be displayed on front page without cut, and you can do that for single post by adding `no_cut = true` in it's front matter.
-
-For populating navbar links standard Hugo's `menu = "main"` can be used in front matter.
-
 ## Colour themes
-All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use.
+All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use. 
+
+## Adding post to main menu
+If you want to add a post to the main menu then include the following to the frontmatter:
+  
+    +++
+    ...
+    menu = "main"
+    +++
+
+The `menu = main` will add the post to the menu. These posts will not be included in the listing of normal posts or in the frontpage!!
 
 ## Screenshots
 ### Index Page
