@@ -25,15 +25,20 @@
 				<div class="col-md-offset-1 col-md-10">
 					<br>
 					{{ if .Site.Params.use_summaries }}
-	  				{{ if .Params.nocut }}
-		  				{{ .Content }}
-			  		{{ else }}
-	  		  		{{ .Summary }}
-					  	<br>
-						  <a href="{{ .Permalink }}">{{ if .Site.Params.strings.read_more_link }}{{ .Site.Params.strings.read_more_link }}{{ else }}Read more{{ end }}</a>
-					  {{ end }}
+	  					{{ if .Params.nocut }}
+		  					{{ .Content }}
+			  			{{ else }}
+	  		  				{{ .Summary }}
+					  		<br>
+						  	<a href="{{ .Permalink }}">
+						  	{{ if .Site.Params.strings.read_more_link }}
+						  		{{ .Site.Params.strings.read_more_link }}
+						  	{{ else }}
+						  		Read more
+						  	{{ end }}</a>
+					  	{{ end }}
 					{{ else }}
-					  {{ .Content }}
+						{{ .Content }}
 					{{ end }}
 				</div>
 			</div>
