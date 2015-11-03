@@ -9,6 +9,7 @@ It is a simple template containing a nice header menu bar and content area. Defa
 * links (used for "linklogs", small blocks of text with link to external site)
 
 You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu). For understanding, what is "linklog" see [Linklog usage](#linklog-usage)
+
 ---
 
 * [Contributors](#contributors)
