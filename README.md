@@ -3,18 +3,19 @@ Hugo Multi Bootswatch Theme
 
 Hugo Multi BootSwatch Theme is a single column theme for [hugo](http://hugo.spf13.com/) based on [Twitter Bootstrap](http://getbootstrap.com/) and a css styling from [Bootswatch](http://bootswatch.com/).
 
-It is a simple template containing a nice header menu bar and content area. Default the theme support 1 type of content.
+It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.
 
 * posts (used for standard blogposts and optional be placed in the menu!)
+* links (used for "linklogs", small blocks of text with link to external site)
 
-You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu)
-
+You can add posts to the main menu see [Adding posts to main menu](#adding-post-to-main-menu). For understanding, what is "linklog" see [Linklog usage](#linklog-usage)
 ---
 
 * [Contributors](#contributors)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Adding posts to main menu](#adding-post-to-main-menu)
+* [Linklog usage](#linklog-usage)
 * [Configuration](#configuration)
 * [Built-in colour themes](#colour-themes)
 * [Screenshots](#screenshots)
@@ -42,7 +43,7 @@ You can add posts to the main menu see [Adding posts to main menu](#adding-post-
 ---
 
 ## Contributors
-* [Valdos Sine](http://brainstorage.me/fat0troll)
+* [Valdos Sine](http://blog.toofat.ru)
 * [Marco Pas](http://mpas.github.io)
 
 ---
@@ -87,6 +88,11 @@ paginate    = 10                    # the number of posts on a page
     # The format shown here is the same one Jekyll/Octopress uses by default.
     post = "/blog/:year/:month/:day/:title/"
 
+[author]
+    # Optional. Used in RSS feed meta information.
+    name = "your name"
+    email = "example <at> example <dot> com"
+
 [params]
     # language code for your website
     languagecode = "en-US"
@@ -118,7 +124,7 @@ paginate    = 10                    # the number of posts on a page
 
     # name of the header used in the post list page
     posts_list_header = "Posts"
-    
+
     # used date format
     date_format = '02.01.2006'
 
@@ -147,17 +153,43 @@ paginate    = 10                    # the number of posts on a page
 ```
 
 ## Colour themes
-All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use. 
+All the available color themes from [Bootswatch](http://bootswatch.com/) are available. Please checkout Bootswatch to see what theme you want to use.
 
 ## Adding post to main menu
 If you want to add a post to the main menu then include the following to the frontmatter:
-  
+
     +++
     ...
     menu = "main"
     +++
 
 The `menu = main` will add the post to the menu. These posts will not be included in the listing of normal posts or in the frontpage!!
+
+## Linklog usage
+
+Some people using their blogs as place for sharing links and storing their own opinion on them. In this theme you have separate content type named "link" for this. Every link produces small block of text on your front page (and in RSS feed too) with your comment on it.
+
+For creating new link in your linklog, invoke
+
+```
+hugo new link/example.md
+```
+
+It will create template with frontmatter like this:
+
+```
++++
+draft = true
+title = "Title of the external link"
+author = "Author of the external content"
+ref = "http://example.com/"
+type = "link"
++++
+
+Content of your comment on external link goes here.
+```
+
+where `title` is a title of your comment on link, `author` is the author of original content you refer to, `ref` is a link to the content, and `type` indicates that this is linklog content. 
 
 ## Screenshots
 ### Index Page
