@@ -4,12 +4,12 @@
 				<!-- <div class="col-md-offset-1 col-md-10"> -->
 				<div class="col-md-offset-1 col-md-10">
 					<h3><a href="{{.Permalink}}">{{ .Title }}</a></h3>
-						<span class="label label-primary">
+						<small><span class="label label-primary">
 							{{ if .Site.Params.strings.date_format }}
 								{{ .Date.Format .Site.Params.strings.date_format }}
 							{{ else }}
 								{{ .Date.Format "Mon, Jan 2, 2006" }}
-							{{ end }}</span>&nbsp;in 
+							{{ end }}</span>&nbsp;in
 							{{ range $i, $e :=.Params.categories }}
 								{{if $i}} , {{end}}
 								<a href="/categories/{{ . | urlize }}">{{ . }}</a>
@@ -48,4 +48,33 @@
 				</div>
 			</div>
 		{{ end }}
+	{{ else if eq .Type "link" }}
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10">
+				<small>
+					<span class="label label-primary">
+						{{ if .Site.Params.strings.date_format }}
+							{{ .Date.Format .Site.Params.strings.date_format }}
+						{{ else }}
+							{{ .Date.Format "Mon, Jan 2, 2006" }}
+						{{ end }}
+					</span>
+					&nbsp;<b>
+						{{ if .Site.Params.strings.linklog_text }}
+							{{ .Site.Params.strings.linklog_text }}
+						{{ else }}
+							Linklog:
+						{{ end }}
+					</b>&nbsp;{{ .Params.author }}: <a href="{{ .Permalink }}">{{ .Title }}</a>
+				</small>
+				<small>
+					{{ .Content }}
+				</small>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+		</div>
 	{{ end }}
