@@ -33,8 +33,10 @@
                         <a href="{{ .Site.Params.flickr }}" target="_blank">
                         <i class="fa fa-flickr fa-2x"></i></a>
                     {{ end }}
+                    {{ if .RSSlink }}
                         <a href="{{ .RSSlink }}" target="_blank">
                         <i class="fa fa-rss-square fa-2x"></i></a>
+                    {{ end }}
                 </div>
             </footer>
         </div>
