@@ -69,8 +69,7 @@ This theme expects a relatively standard Hugo blog/personal site layout:
     ├── post
     |   ├── post1.md
     |   └── post2.md
-    └── page
-        ├── license.md      // this is used in the footer link
+    └── license.md      // this is used in the footer link
 ```
 
 Just run `hugo --theme=hugo-multi-bootswatch` to generate your site!
