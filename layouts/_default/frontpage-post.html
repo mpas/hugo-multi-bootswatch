@@ -13,7 +13,7 @@
 							{{ range $i, $e :=.Params.categories }}
 								{{if $i}} , {{end}}
 								<a href="/categories/{{ . | urlize }}">{{ . }}</a>
-							{{ end }} using tags
+							{{ end }}
 							{{ range $i, $e :=.Params.tags }}
 								{{if $i}} , {{end}}
 							<a href="/tags/{{ . | urlize }}">{{ . }}</a>
