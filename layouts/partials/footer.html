@@ -11,31 +11,35 @@
                 <div class="pull-right">
                     {{ if isset .Site.Params "linkedin" }}
                         <a href="{{ .Site.Params.linkedin }}" target="_blank">
-                        <i class="fa fa-linkedin fa-2x"></i></a>
+                        <i class="fab fa-linkedin fa-2x"></i></a>
                     {{ end }}
                     {{ if isset .Site.Params "facebook" }}
                         <a href="{{ .Site.Params.facebook }}" target="_blank">
-                        <i class="fa fa-facebook-square fa-2x"></i></a>
+                        <i class="fab fa-facebook-square fa-2x"></i></a>
                     {{ end }}
                     {{ if isset .Site.Params "twitter" }}
                         <a href="{{ .Site.Params.twitter }}" target="_blank">
-                        <i class="fa fa-twitter-square fa-2x"></i></a>
+                        <i class="fab fa-twitter-square fa-2x"></i></a>
                     {{ end }}
                     {{ if isset .Site.Params "github" }}
                         <a href="{{ .Site.Params.github }}" target="_blank">
-                        <i class="fa fa-github-square fa-2x"></i></a>
+                        <i class="fab fa-github-square fa-2x"></i></a>
                     {{ end }}
                     {{ if isset .Site.Params "delicious" }}
                         <a href="{{ .Site.Params.delicious }}" target="_blank">
-                        <i class="fa fa-delicious fa-2x"></i></a>
+                        <i class="fab fa-delicious fa-2x"></i></a>
                     {{ end }}
                     {{ if isset .Site.Params "flickr" }}
                         <a href="{{ .Site.Params.flickr }}" target="_blank">
-                        <i class="fa fa-flickr fa-2x"></i></a>
+                        <i class="fab fa-flickr fa-2x"></i></a>
+                    {{ end }}
+                    {{ if isset .Site.Params "goodreads" }}
+                        <a href="{{ .Site.Params.goodreads }}" target="_blank">
+                        <i class="fab fa-goodreads fa-2x"></i></a>
                     {{ end }}
                     {{ if .RSSLink }}
                         <a href="{{ .RSSLink }}" target="_blank">
-                        <i class="fa fa-rss-square fa-2x"></i></a>
+                        <i class="fas fa-rss-square fa-2x"></i></a>
                     {{ end }}
                 </div>
             </footer>

@@ -110,6 +110,7 @@ paginate    = 10                    # the number of posts on a page
     delicious   = "https://delicious.com/<username>"
     linkedin    = "https://www.linkedin.com/in/<username>"
     flickr      = "https://www.flickr.com/photos/<username>"
+    goodreads   = "https://www.goodreads.com/user/show/<username>"
 
     # show default summaries on the frontpage or not
     use_summaries = false
