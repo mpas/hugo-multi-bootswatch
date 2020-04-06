@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
     <div class="container">
-        {{ $paginator := .Paginate (where .Data.Pages "Section" "in" "post link") }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             {{ .Render "frontpage-post" }}
         {{ end }}
